@@ -1,5 +1,5 @@
 import React from "react"
-inport "./Header.css"
+import "./Header.css"
 
 const Header = () => {
     return (
@@ -13,4 +13,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header;
