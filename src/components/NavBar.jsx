@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import "./NavBar/NavBar.css";
 
@@ -6,6 +7,7 @@ const NavBar = () => {
   const [menu, setMenu] = useState("home");
 
   return (
+    
     <div className="navbar">
       <ul className="navbar-menu">
         <li
@@ -27,8 +29,6 @@ const NavBar = () => {
           Contact Us
         </li>
       </ul>
-    </div>
-  );
-};
+     </div>
 
 export default NavBar;
