@@ -1,14 +1,12 @@
-
 import React, { useState } from "react";
 import "./NavBar/NavBar.css";
 
-
 const NavBar = () => {
-  const [menu, setMenu] = useState("home");
 
-  return (
-    
-    <div className="navbar">
+    const [menu, setMenu] = useState("home")
+    return (
+
+    <div>
       <ul className="navbar-menu">
         <li
           onClick={() => setMenu("home")}
@@ -30,5 +28,7 @@ const NavBar = () => {
         </li>
       </ul>
      </div>
+    )
+  }
 
 export default NavBar;
