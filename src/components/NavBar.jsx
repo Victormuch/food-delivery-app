@@ -4,7 +4,8 @@ import "./NavBar/NavBar.css";
 
 
 const NavBar = () => {
-  const [menu, setMenu] = useState("home");
+
+    const [menu, setMenu] = useState("home")
 
   return (
     
