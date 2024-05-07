@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import { assets } from './../assets/assets'
+import { assets } from '../../assets/assets'
 
 const Footer = () => {
   return (
@@ -8,11 +8,12 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <h2 style={{color: "orangered"}}>Foodies!</h2>
-                <p>!</p>
+                <p>Good food is the foundation of genuine happiness. If you want to experience true happiness,swing by Foodies FastFood today and discover a new world of flavor and convenience!</p>
+
                 <div className="footer-social-icons">
-                    <img src={assets.} alt="" />
-                    <img src={assets.} alt="" />
-                    <img src={assets.} alt="" />
+                    <img src={assets.facebook_icon} alt="" />
+                    <img src={assets.twitter_icon} alt="" />
+                    <img src={assets.linkedin_icon} alt="" />
                 </div>
             </div>
             <div className="footer-content-center">
