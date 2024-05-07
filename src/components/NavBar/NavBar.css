@@ -1,0 +1,30 @@
+.navbar {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.navbar-menu li {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-menu li:hover {
+    background-color: #4b5d96; 
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: inherit;
+}
