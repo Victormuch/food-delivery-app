@@ -1,12 +1,12 @@
 import React from 'react'
 import './NavBar/NavBar.css'
 
-const NavBar = () => {
 
-    const [menu, setMenu] = useState("home")
+const NavBar = () => {
 
   return (
     <div className='navbar'>
+      <img src="" alt="" />
         <ul className="navbar-menu">
             <li>Home</li>
             <li>menu</li>
