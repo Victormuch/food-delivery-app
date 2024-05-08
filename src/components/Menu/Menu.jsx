@@ -6,10 +6,12 @@ function Menu() {
   const [menu, setMenu] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/food")
-    .then(res => res.json())
-    .then(data => setMenu(data))
-    .catch(error => console.error("Error fetching menu:",error))
+    fetch(
+      "https://my-json-server.typicode.com/Victormuch/food-delivery-app/food"
+    )
+      .then((res) => res.json())
+      .then((data) => setMenu(data))
+      .catch((error) => console.error("Error fetching menu:", error));
   }, []);
   function handlePurchase(foodName) {
     alert("Orderd" +  " "+ foodName + ". " + "Enjoy your meal thank you");
