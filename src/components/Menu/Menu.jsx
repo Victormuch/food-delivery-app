@@ -23,8 +23,6 @@ function Menu() {
             <img src={food.poster} alt={food.name}/>
             <h4>{food.title}</h4>
             <p>{food.description}</p>
-            {food.food_price}
-            <h5>{food.description}</h5>
             <h2> {food.food_price}</h2>
             <button
               className="purchase-button"
