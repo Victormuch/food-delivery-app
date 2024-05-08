@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './home.css'
 const Home = () => {
   return (
@@ -8,4 +9,9 @@ const Home = () => {
   )
 }
 
+
+
+ 
+
 export default Home
+
