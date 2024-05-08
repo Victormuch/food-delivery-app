@@ -1,8 +1,8 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Cart from "./Pages/Cart/Cart";
 
@@ -26,3 +26,4 @@ function App() {
   );
 }
 export default App;
+
