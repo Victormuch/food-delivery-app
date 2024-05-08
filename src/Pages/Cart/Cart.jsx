@@ -1,16 +1,9 @@
-import React from 'react'
-
-import './cart.css'
-
+import React from "react";
 
 
 
 function Cart() {
-  return (
-    <div>
-
-    </div>
-  )
+  return <div></div>;
 }
 
 export default Cart;
