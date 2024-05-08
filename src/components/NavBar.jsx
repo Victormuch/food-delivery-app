@@ -1,12 +1,10 @@
-
 import React, { useState } from "react";
 import "./NavBar/NavBar.css";
 
-
 const NavBar = () => {
-  const [menu, setMenu] = useState("home");
 
-  return (
+    const [menu, setMenu] = useState("home")
+    return (
     
     <div className="navbar">
       <ul className="navbar-menu">
@@ -30,6 +28,11 @@ const NavBar = () => {
         </li>
       </ul>
      </div>
+
   )
 }
+
+
+  
+
 export default NavBar;
