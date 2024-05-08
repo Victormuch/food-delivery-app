@@ -11,7 +11,7 @@ const Home = () => {
       </div>
       <div className="right-side">
         <h2>Welcome to Foodies!</h2>
-        <p>There is no love sincerer than the love of food.</p>
+        <h3>There is no love sincerer than the love of food.</h3>
         <p>
           Foodies restraurant thereby invites you all to come and experience
           this love
@@ -24,6 +24,7 @@ const Home = () => {
           attentively, ensuring that your meal arrives hot and fresh on every
           occasion.
         </p>
+        <h1>Thank You</h1>
       </div>
     </div>
   );

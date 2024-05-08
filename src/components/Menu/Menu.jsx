@@ -12,7 +12,7 @@ function Menu() {
     .catch(error => console.error("Error fetching menu:",error))
   }, []);
   function handlePurchase(foodName) {
-    alert("Purchased" +  " "+ foodName);
+    alert("Orderd" +  " "+ foodName + ". " + "Enjoy your meal thank you");
   }
 
   return (
@@ -28,7 +28,7 @@ function Menu() {
               className="purchase-button"
               onClick={() => handlePurchase(food.title)}
             >
-              Purchase
+              Order
             </button>
           </div>
           
