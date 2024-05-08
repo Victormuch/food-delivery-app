@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./NavBar/NavBar.css";
 
-const NavBar = () => {
+const NavBar = ({cartCount}) => {
 
     const [menu, setMenu] = useState("home")
     return (
@@ -27,6 +28,9 @@ const NavBar = () => {
           Contact Us
         </li>
       </ul>
+      <Link to='./cart' className="cart-button" >
+      🛒 Cart ({cartCount})
+      </Link>
      </div>
 
   )
