@@ -1,38 +1,37 @@
-
 .navbar {
-    padding: 20px 0px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    background-color: #ffffff;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
 }
 
 .navbar-menu {
-    display: flex;
-    list-style: none;
-    gap: 20px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
 }
 
 .navbar-menu li {
-    cursor: pointer;
-    font-size: 24px; 
+  cursor: pointer;
+  font-size: 24px;
 }
 
 .navbar-menu li.active {
-    padding-bottom: 2px;
-    color: #180202;
+  padding-bottom: 2px;
+  color: #180202;
 }
 
 .navbar-menu li:hover {
-    color: #ff0000;
+  color: #ff0000;
 }
-.cart-button{
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.2rem;
-    margin-left: auto;
+.cart-button {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: auto;
 }
-.cart-button::after{
-    content:"/1F6D2";
-    margin-left: 5px;
+.cart-button::after {
+  content: "/1F6D2";
+  margin-left: 5px;
 }

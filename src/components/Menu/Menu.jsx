@@ -14,7 +14,7 @@ function Menu() {
       .catch((error) => console.error("Error fetching menu:", error));
   }, []);
   function handlePurchase(foodName) {
-    alert("Orderd" +  " "+ foodName + ". " + "Enjoy your meal thank you");
+    alert("Orderd" + " " + foodName + ". " + "Enjoy your meal thank you");
   }
 
   return (
@@ -22,7 +22,7 @@ function Menu() {
       <div className="card-container">
         {menu.map((food) => (
           <div className="card" key={food.id}>
-            <img src={food.poster} alt={food.name}/>
+            <img src={food.poster} alt={food.name} />
             <h4>{food.title}</h4>
             <p>{food.description}</p>
             <h2> {food.food_price}</h2>
@@ -33,7 +33,6 @@ function Menu() {
               Order
             </button>
           </div>
-          
         ))}
       </div>
     </div>
