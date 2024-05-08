@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Cart from "./Pages/Cart/Cart";
 import About from "./components/About/About";
+import Menu from "./components/Menu/Menu";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       </Routes>
        <Header />
        <About/>
+       <Menu/>
       <Footer />
     </div>
   );

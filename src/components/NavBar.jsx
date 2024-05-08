@@ -5,8 +5,8 @@ const NavBar = () => {
 
     const [menu, setMenu] = useState("home")
     return (
-
-    <div>
+    
+    <div className="navbar">
       <ul className="navbar-menu">
         <li
           onClick={() => setMenu("home")}
@@ -28,7 +28,9 @@ const NavBar = () => {
         </li>
       </ul>
      </div>
-    )
-  }
+
+  )
+}
+
 
 export default NavBar;
