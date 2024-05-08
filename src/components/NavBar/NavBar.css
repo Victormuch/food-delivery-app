@@ -26,3 +26,13 @@
 .navbar-menu li:hover {
     color: #ff0000;
 }
+.cart-button{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: auto;
+}
+.cart-button::after{
+    content:"/1F6D2";
+    margin-left: 5px;
+}
