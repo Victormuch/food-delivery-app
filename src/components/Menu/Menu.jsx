@@ -13,7 +13,7 @@ function Menu() {
   }, []);
 
   function handlePurchase(foodName) {
-    alert("Purchased" + foodName);
+    alert("Purchased" +  " "+ foodName);
   }
   return (
     <div>
@@ -26,7 +26,7 @@ function Menu() {
             <h2> {food.food_price}</h2>
             <button
               className="purchase-button"
-              onClick={() => handlePurchase(food.name)}
+              onClick={() => handlePurchase(food.title)}
             >
               Purchase
             </button>
