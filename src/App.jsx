@@ -5,10 +5,9 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import Cart from "./Pages/Cart/Cart";
-
-
 import Menu from "./components/Menu/Menu";
 import AppDownload from "./components/AppDownload/AppDownload";
+
 function App() {
   return (
     <div className="app">
@@ -18,7 +17,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
-
       <Menu />
       <AppDownload />
       <Footer />
