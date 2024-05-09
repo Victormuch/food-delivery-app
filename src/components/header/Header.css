@@ -1,5 +1,5 @@
 .header {
-  height: 500px;
+  height: 700px;
   margin: 30px auto;
   background: url("/home.jpg") no-repeat;
   background-size: cover;
@@ -22,8 +22,8 @@
   font-size: max(4.5vw, 22px);
 }
 .header-contents p {
-  color: white;
-  font-size: 1vw;
+  color: rgb(8, 8, 8);
+  font-size: 20px;
 }
 .header-contents button {
   border: none;
@@ -55,4 +55,8 @@ p {
   .header-contents button {
     padding: 2vw 4vw;
   }
+}
+.view-button{
+    cursor: pointer;
+
 }

@@ -35,7 +35,7 @@
   padding: 1.5px;
 }
 .purchase-button {
-  background-color: #c6a53a;
+  background-color: #50b5b5;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -45,5 +45,5 @@
   transition: background-color 0.3s ease;
 }
 .purchase-button:hover {
-  background-color: #e0880b;
+  background-color: #28667b;
 }
