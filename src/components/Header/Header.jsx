@@ -18,7 +18,7 @@ const Header = () => {
           mission is to satisfy your cravings and elevate your dining
           experience, one delicious meal at a time.
         </p>
-        <button onClick={handleViewMenu}>View Menu</button>
+        <button  className="view-button" onClick={handleViewMenu}>View Menu</button>
       </div>
     </div>
   );

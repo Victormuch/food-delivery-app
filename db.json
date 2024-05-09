@@ -3,57 +3,64 @@
     {
       "id": "1",
       "title": "French fries",
-      "food_price": "$40",
+      "food_price": "ksh600",
       "description": "Freakin' Hot Fries. A 6 ounce serving of piping-hot french fries, crispy and more flavorful than any at those fast food joints.",
       "poster": "https://images.pexels.com/photos/1352274/pexels-photo-1352274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "2",
       "title": "Lasagna",
-      "food_price": "$20",
+      "food_price": "ksh400",
       "description": "A rich and creamy whole-wheat pasta dish filled layer by layer with refreshingly fresh onions and garlic, lathered in a succulent sauce and topped with imported, premium quality mozzarella.",
       "poster": "https://images.pexels.com/photos/8023752/pexels-photo-8023752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "3",
       "title": "Burgers",
-      "food_price": "$30",
+      "food_price": "ksh500",
       "description": "Juicy, big, loaded with toppings of my choice.A huge single or triple burger with all the fixings, cheese, lettuce, tomato, onions and special sauce or mayonnaise!",
       "poster": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "4",
       "title": "Fettucine pasta",
-      "food_price": "$50",
+      "food_price": "ksh400",
       "description": "Coated in a luscious sauce made with butter, heavy cream, and Parmesan cheese. Each bite is a velvety delight that glides across your palate, leaving you craving more.",
       "poster": "https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "5",
       "title": "Biryani",
-      "food_price": "$35",
+      "food_price": "ksh300",
       "description": "a spiced mix of meat and rice, traditionally cooked over an open fire in a leather pot. It is combined in different ways with a variety of components to create a number of highly tasty",
       "poster": "https://images.pexels.com/photos/8250738/pexels-photo-8250738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "6",
       "title": "Butter Chicken",
-      "food_price": "$70",
+      "food_price": "ksh700",
       "description": " A type of curry made from chicken with a spiced tomato and butter (makhan) sauce.",
       "poster": "https://images.pexels.com/photos/8463425/pexels-photo-8463425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "7",
       "title": "Sushi",
-      "food_price": "$10",
+      "food_price": "ksh200",
       "description": "A small roll of rice that is combined with raw fish, seaweed, cucumber, and vegetables, amongst other ingredients. The rice in sushi is dressed in vinegar.",
       "poster": "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "8",
+      "title": "Pizza",
+      "food_price": "ksh250",
+      "description": "A small roll of rice that is combined with raw fish, seaweed, cucumber, and vegetables, amongst other ingredients. The rice in sushi is dressed in vinegar.",
+      "poster": "https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "9",
       "title": "Shawarma",
-      "food_price": "$45",
-      "description": "Sliced cuts of meat, like chicken, beef, goat, lamb, and sometimes turkey rolled into a large piece of flatbread or pita that has been steamed or heated.",
+      "food_price": "ksh450",
+      "description": "pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese.",
       "poster": "https://images.pexels.com/photos/5779364/pexels-photo-5779364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
   ]

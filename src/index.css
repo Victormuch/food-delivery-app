@@ -10,11 +10,8 @@ a {
   text-decoration: none;
   color: inherit;
 }
-.app {
-  width: 80%;
-  margin: auto;
-}
+
 body {
-  background-color: rgb(197, 197, 197);
+  background-color: rgb(148, 202, 207);
   margin: 0px;
 }
