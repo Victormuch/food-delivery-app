@@ -5,7 +5,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Home from "./Pages/home/Home";
 
-import Menu from "./components/menu/Menu";
+import Menu from "./components/Menu/Menu";
 import AppDownload from "./components/appDownload/AppDownload";
 import Contact from "./Pages/contact/Contact";
 
