@@ -8,6 +8,7 @@ const Header = () => {
   function handleViewMenu() {
     navigate("/menu");
   }
+
   return (
     <div className="header">
       <div className="header-contents">
@@ -18,7 +19,10 @@ const Header = () => {
           mission is to satisfy your cravings and elevate your dining
           experience, one delicious meal at a time.
         </p>
-        <button  className="view-button" onClick={handleViewMenu}>View Menu</button>
+
+        <button className="view-button" onClick={handleViewMenu}>
+          View Menu
+        </button>
       </div>
     </div>
   );
