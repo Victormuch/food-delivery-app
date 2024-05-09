@@ -23,7 +23,7 @@ const NavBar = () => {
           onClick={() => setMenu("contact-us")}
           className={menu === "contact-us" ? "active" : ""}
         >
-          Contact Us
+          <Link to={"/contact"}>Contact US</Link>
         </li>
       </ul>
     </div>
