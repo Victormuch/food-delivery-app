@@ -1,5 +1,5 @@
 .header {
-  height: 34vw;
+  height: 500px;
   margin: 30px auto;
   background: url("/home.jpg") no-repeat;
   background-size: cover;
@@ -33,6 +33,9 @@
   background-color: white;
   border-radius: 50px;
   font-size: max(1vw, 13px);
+}
+p {
+  color: black;
 }
 
 @media (max-width: 1050px) {

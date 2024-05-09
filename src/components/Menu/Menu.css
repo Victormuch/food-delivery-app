@@ -5,10 +5,12 @@
 }
 
 .card {
-  background-color: #b2bcca;
+  background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  padding: 20px;
+  padding: 0px;
+  text-align: center;
+  padding-bottom: 3%;
   margin: 10px;
   width: 400px;
   cursor: pointer;
@@ -19,7 +21,7 @@
   transform: translateY(-5px);
 }
 .card img {
-  width: 200px;
+  width: 100%;
   height: auto;
   border-radius: 8px;
 }
