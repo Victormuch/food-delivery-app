@@ -4,17 +4,26 @@
   background: no-repeat;
   background-size: cover;
   position: relative;
-  animation: carousel 12s infinite;
+  animation: carousel 50s infinite;
+  transition: background-image 1s ease-in-out;
 }
-@keyframes carousel{
-  0% {background: url("/home.jpg")}
-  25% {background: url("/home1.jpg")}
-  50% {background: url("/home2.jpg")}
-  75% {background: url("/home3.jpg")}
-  100% {background: url("/home5.jpg")}
- 
+@keyframes carousel {
+  0% {
+    background: url("/home.jpg") left top / cover no-repeat;
+  }
+  25% {
+    background: url("/src/assets/Home1.jpg") right top / cover no-repeat;
+  }
+  50% {
+    background: url("/src/assets/Home2.jpg") left top / cover no-repeat;
+  }
+  75% {
+    background: url("/src/assets/Home3.jpg") right top / cover no-repeat;
+  }
+  100% {
+    background: url("/src/assets/Home4.jpg ") left top / cover no-repeat;
+  }
 }
-
 
 .header-contents {
   position: absolute;
@@ -67,7 +76,6 @@ p {
     padding: 2vw 4vw;
   }
 }
-.view-button{
-    cursor: pointer;
-
+.view-button {
+  cursor: pointer;
 }
