@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import "../Menu/Menu.css";
+import "../menu/Menu.css";
 
 function Menu() {
   const [menu, setMenu] = useState([]);

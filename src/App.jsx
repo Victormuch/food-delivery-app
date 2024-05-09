@@ -1,12 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import Home from "./Pages/Home/Home";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Home from "./Pages/home/Home";
 
-import Menu from "./components/Menu/Menu";
-import AppDownload from "./components/AppDownload/AppDownload";
+import Menu from "./components/menu/Menu";
+import AppDownload from "./components/appDownload/AppDownload";
+import Contact from "./Pages/contact/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
       </Routes>
+      <Contact />
 
       <AppDownload />
       <Footer />

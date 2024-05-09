@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./NavBar/NavBar.css";
+import "./navBar/NavBar.css";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -23,7 +23,7 @@ const NavBar = () => {
           onClick={() => setMenu("contact-us")}
           className={menu === "contact-us" ? "active" : ""}
         >
-          <Link to="/contact-us">Contact Us</Link>
+          Contact Us
         </li>
       </ul>
     </div>
