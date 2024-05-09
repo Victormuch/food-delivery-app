@@ -34,7 +34,7 @@ Live Link https://food-delivery-app-chi-nine.vercel.app/
 
 ## API Used
 
-- The Menu API 
+- The Menu API ('https://my-json-server.typicode.com/Victormuch/food-delivery-app/food')
 
 ## Credits
 
