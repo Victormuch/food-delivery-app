@@ -6,9 +6,7 @@ function Menu() {
   const [menu, setMenu] = useState([]);
 
   useEffect(() => {
-    fetch(
-      "https://my-json-server.typicode.com/Victormuch/food-delivery-app/food"
-    )
+    fetch("http://localhost:3000/food")
       .then((res) => res.json())
       .then((data) => setMenu(data))
       .catch((error) => console.error("Error fetching menu:", error));
