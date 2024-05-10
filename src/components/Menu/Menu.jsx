@@ -19,6 +19,7 @@ function Menu() {
 
   return (
     <div>
+      <h1 style={{ color: "orangered" }}>Here Is our Menu</h1>
       <div className="card-container">
         {menu.map((food) => (
           <div className="card" key={food.id}>
