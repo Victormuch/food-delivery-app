@@ -4,7 +4,7 @@
       "id": "1",
       "title": "French fries",
       "food_price": "ksh600",
-      "description": "Freakin' Hot Fries. A 6 ounce serving of piping-hot french fries, crispy and more flavorful than any at those fast food joints.",
+      "description": "French fries, originating from Belgium, are made by cutting potatoes into thin strips, deep-frying them to achieve a crisp exterior and tender interior. Often served hot and seasoned with salt, they're a beloved side dish or snack enjoyed.",
       "poster": "https://images.pexels.com/photos/1352274/pexels-photo-1352274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
@@ -18,28 +18,28 @@
       "id": "3",
       "title": "Burgers",
       "food_price": "ksh500",
-      "description": "Juicy, big, loaded with toppings of my choice.A huge single or triple burger with all the fixings, cheese, lettuce, tomato, onions and special sauce or mayonnaise!",
+      "description": "A burger is a savory sandwich consisting of a grilled or fried patty made from ground meat, typically beef, placed inside a sliced bun. It's often accompanied by various toppings offering a satisfying and versatile meal ",
       "poster": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "4",
       "title": "Fettucine pasta",
       "food_price": "ksh400",
-      "description": "Coated in a luscious sauce made with butter, heavy cream, and Parmesan cheese. Each bite is a velvety delight that glides across your palate, leaving you craving more.",
+      "description": "Fettuccine pasta is a type of long, flat noodle made from durum wheat flour and eggs. It's wider than spaghetti but narrower than lasagna, typically served with creamy Alfredo sauce or tomato-based sauces, offering a rich and satisfying dining experience often associated with Italian cuisine.",
       "poster": "https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "5",
-      "title": "Biryani",
+      "title": "Pilau",
       "food_price": "ksh300",
-      "description": "a spiced mix of meat and rice, traditionally cooked over an open fire in a leather pot. It is combined in different ways with a variety of components to create a number of highly tasty",
+      "description": "A spiced mix of meat and rice, traditionally cooked over an open fire in a leather pot. It is combined in different ways with a variety of components to create a number of highly tasty",
       "poster": "https://images.pexels.com/photos/8250738/pexels-photo-8250738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "6",
       "title": "Butter Chicken",
       "food_price": "ksh700",
-      "description": " A type of curry made from chicken with a spiced tomato and butter (makhan) sauce.",
+      "description": "Butter chicken is a beloved Indian dish featuring tender chicken marinated in a creamy, tomato-based sauce. It boasts a perfect harmony of spices and a luxurious finish with butter and cream.",
       "poster": "https://images.pexels.com/photos/8463425/pexels-photo-8463425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
@@ -52,15 +52,15 @@
     {
       "id": "8",
       "title": "Pizza",
-      "food_price": "ksh250",
-      "description": "A small roll of rice that is combined with raw fish, seaweed, cucumber, and vegetables, amongst other ingredients. The rice in sushi is dressed in vinegar.",
+      "food_price": "ksh2500",
+      "description": "Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese.",
       "poster": "https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "9",
       "title": "Shawarma",
       "food_price": "ksh450",
-      "description": "pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese.",
+      "description": "Shawarma is a Middle Eastern dish featuring thinly sliced meat wrapped in pita bread   offering a flavorful and satisfying street food experience.",
       "poster": "https://images.pexels.com/photos/5779364/pexels-photo-5779364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
   ]
