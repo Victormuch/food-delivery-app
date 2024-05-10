@@ -15,3 +15,13 @@ body {
   background-color: #C4E5D3;
   margin: 0px;
 }
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+html::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+html::-webkit-scrollbar-thumb {
+  background: #8daba5;
+  border-radius: 5rem;
+}

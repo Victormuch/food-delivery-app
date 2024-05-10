@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
           <h2 style={{ color: "orangered" }}>Foodies!</h2>
-          <p>
+          <p style={{ color: "white" }}>
             Good food is the foundation of genuine happiness. If you want to
             experience true happiness,swing by Foodies FastFood today and
             discover a new world of flavor and convenience!
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">
+      <p className="footer-copyright" style={{ color: "white" }}>
         Copyright 2024 @2024 Foodies! - All Right Reserved
       </p>
     </div>
