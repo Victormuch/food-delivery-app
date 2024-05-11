@@ -12,7 +12,6 @@ Live Link https://food-delivery-app-chi-nine.vercel.app/
 
 - 3 page application that routes to Home, Menu and Contact page respectively
 - View meal images, price and description.
-- Toggle display of meal ingredients.
 - Order button for ordering the meal.
 - Our contact page featuring contact details social media pages.
 
